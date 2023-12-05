@@ -13,12 +13,11 @@
 
 ### Cuando creamos un archivo con extensión .html:
 - **!** -> Si escribimos "!" al inicio de una página html y le damos a intro, nos aparecerá un esquema simple de una página html
-- **html:5** -> Es lo mismo que escribir "!" al inicio
-En ambos casos nos aparecerá esta estructura:
-<video controls autoplay loop muted>
-  <source src="html.mp4" type="video/mp4">
-</video>
-    
+- **html:5** -> Es lo mismo que escribir "!" al inicio <br>
+
+En ambos casos nos aparecerá esta estructura: <br><br>
+![Puedes ver un ejemplo aquí](https://github.com/CrisCorreaS/trucos-vscode/blob/main/Emmet/Videos/html.gif)
+
 ### Dentro de la etiqueta head de un archivo con extensión .html:
 - **link:css** -> Si dentro de la etiqueta "head" escribimos "link:css" y le damos a intro nos aparecerá ``<link rel="stylesheet" href="style.css">``
 - **script:src** -> Si escribimos "script:src" nos aparecerá ``<script src=""></script>``
