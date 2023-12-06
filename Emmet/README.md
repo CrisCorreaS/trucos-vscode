@@ -34,12 +34,12 @@ En ambos casos nos aparecerá esta estructura: <br><br>
 ``<p></p>`` <br>
 ``<a href=""></a>``
 
-- <b>p+a*2</b> -> Si escribimos "p+a*2" y hacemos intro, aparecerá una etiqueta "p" y en el mismo nivel, dos etiquetas "a". Ej: <br>
+- <b>p+a\*2</b> -> Si escribimos "p+a\*2" y hacemos intro, aparecerá una etiqueta "p" y en el mismo nivel, dos etiquetas "a". Ej: <br>
 ``<p></p>`` <br>
 ``<a href=""></a>`` <br>
 ``<a href=""></a>``
 
-- **(p+a)*2** -> Si escribimos "(p+a)*2" y hacemos intro, aparecerán en el mismo nivel una etiqueta "p", una etiqueta "a", seguida de otra etiqueta "p" y de otra "a". Ej: <br>
+- <b>(p+a)*2</b> -> Si escribimos "(p+a)*2" y hacemos intro, aparecerán en el mismo nivel una etiqueta "p", una etiqueta "a", seguida de otra etiqueta "p" y de otra "a". Ej: <br>
 ``<p></p>`` <br>
 ``<a href=""></a>`` <br>
 ``<p></p>`` <br>
