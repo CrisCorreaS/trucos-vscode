@@ -1,6 +1,6 @@
 # EXTENSIONES GENERALES DE VSCODE
 - **Auto Rename Tag:** Se usa para cambiar el nombre de las etiquetas tanto empezando por las etiquetas de cierre como con las de apertura <br>
-![Puedes ver un ejemplo aquí](https://github.com/CrisCorreaS/trucos-vscode/blob/main/Extensiones/Generales/Videos/auto-rename-tag.gif)
+![Puedes ver un ejemplo aquí](https://github.com/CrisCorreaS/trucos-vscode/blob/main/Extensiones/01%20Generales/Videos/auto-rename-tag.gif)
 
 - **CMake:** Facilita el proceso de construcción y compilación de software en diferentes plataformas. Proporciona herramientas que simplifican la configuración y construcción de proyectos, al igual que da soporte para la sintaxis y el autocompletado.
 
@@ -13,7 +13,7 @@
 - **GitLens — Git supercharged:** Potencia la funcionalidad de Git en Visual Studio Code, facilitando la navegación, comprensión y gestión de la historia del repositorio Git directamente desde el entorno de desarrollo.
 
 - **html tag wrapper:** Permite crear una etiqueta div, que contiene y agrupa el código seleccionado, haciendo "Ctrl+i" <br>
-![Puedes ver un ejemplo aquí](https://github.com/CrisCorreaS/trucos-vscode/blob/main/Extensiones/Generales/Videos/html-tag-wrapper.gif)
+![Puedes ver un ejemplo aquí](https://github.com/CrisCorreaS/trucos-vscode/blob/main/Extensiones/01%20Generales/Videos/html-tag-wrapper.gif)
 
 - **Image preview:** Ayuda a previsualizar imágenes directamente dentro del editor de VSCode ya que permite ver una vista previa de la imagen directamente en la interfaz de usuario. Facilita mucho el trabajo con imágenes.
 
