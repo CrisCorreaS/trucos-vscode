@@ -1,0 +1,3 @@
+# SETTINGS VSCODE
+- **Espacios de Indentación** -> Según el Standard Web y la [Guía de Estilos de Google](https://google.github.io/styleguide/htmlcssguide.html#Indentation), deberían de haber 2 espacios de indentación, no 4. 
+  - Para establecer los espacios de indentación en 2, tenemos que ir a la barra inferior de VSCode y buscar el apartado "Spaces", hacemos click sobre este y veremos que en la barra del buscador aparecerá la opción "Indent Using Spaces", hacemos click en esa opción y nos aparecerá un desplegable con varios valores numéricos, ahí tendremos que seleccionar el número "2" y podremos ver que en la barra inferior de VSCode ahora pone "Spaces:2"
