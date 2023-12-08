@@ -1,16 +1,4 @@
 # TRUCOS Y HACKS DE EMMET
-### En general el cualquier archivo con extensión .html, .css o .js:
-- **Ctrl+ç** -> Podremos hacer un comentario o comentar el código que hemos seleccionado en cualquiera de esos archivos
-- **(Ctrl+K)+(Ctrl+C)** -> Si pulsamos Ctrl+K y seguidamente Ctrl+C, podremos hacer lo mismo que con Ctrl+ç
-  -- Si lo hacemos en html nos aparecerá: ``<!--  -->``
-  -- Si lo hacemos en css nos aparecerá: ``/*  */``
-  -- Si lo hacemos en js nos aparecerá: ``//``
-
-- **Ctrl+c** / **Ctrl+x** / **Ctrl+v** -> Si hacemos Ctrl+c, Ctrl+x o Ctrl+v al final de la línea, se copiará, cortará o pegará (respectivamente), toda la línea, incluído el elemento de la línea y los comentarios que haya.
-
-- **Tab** -> Si seleccionamos parte de un código y hacemos click sobre el tabulador, se le añade un espacio. Esto ayuda a indentar el código.
-- **Tab+Shift** -> Si seleccionamos parte de un código y hacemos Tab+Shift, se le quita un espacio. Es la acción inversa a hacer click en Tab.
-
 ### Cuando creamos un archivo con extensión .html:
 - **!** -> Si escribimos "!" al inicio de una página html y le damos a intro, nos aparecerá un esquema simple de una página html
 - **html:5** -> Es lo mismo que escribir "!" al inicio <br>
