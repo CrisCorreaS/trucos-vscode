@@ -13,42 +13,45 @@ En ambos casos nos aparecerá esta estructura: <br><br>
 
 ### Dentro de la etiqueta body de un archivo con extensión .html
 - **lorem** -> Crea una línea de texto de Lorem Ipsum
-- **lorem*20** -> Crea 20 líneas de texto de Lorem Ipsum
+- **lorem2** -> Crea dos palabras de lorem -> Si ponemos lorem + número (ej: lorem5) se genera el número de palabras de lorem que hemos especificado. <br> _Ej:_ lorem7 = ``Lorem ipsum dolor, sit amet consectetur adipisicing.``
+- **lorem*30** -> Crea 30 líneas de texto de Lorem Ipsum -> Si ponemos lorem + * + número (Ej: lorem*5) se genera el número de líneas de lorem que hemos especificado. <br> _Ej:_ lorem*2: <br>
+(línea 1) ``Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil quasi soluta dicta ratione! Modi nostrum error obcaecati magni consectetur. Magni odit provident totam numquam cumque tempora fugit. Amet, omnis explicabo?``  <br> 
+(línea 2) ``Quidem reprehenderit culpa distinctio, quis atque dolore ea, corporis quod harum ipsa, vero suscipit officia. Ipsa adipisci voluptatem quaerat autem in, illum nobis architecto quisquam reiciendis quas, inventore repudiandae sapiente!`` 
 
-- **p>lorem*2** -> Crea un párrafo con dos líneas de Lorem Ipsum. Ej: <br>
-``<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Est vero, aliquam ad asperiores quis expedita tempore quisquam voluptates velit necessitatibus, cupiditate rerum perspiciatis sapiente reiciendis maxime, tenetur iure illo eum.</p>``
+- **p>lorem15** -> Crea un párrafo con quince palabras de Lorem Ipsum. <br> _Ej:_ 
+``<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero, numquam. Dolorem eveniet itaque et impedit?</p>``
 
-- **p+a** -> Si escribimos "p+a" y hacemos intro, aparecerá una etiqueta "p" y en el mismo nivel, una etiqueta "a". Se parece mucho a los selectores de css. Ej: <br>
+- **p+a** -> Si escribimos "p+a" y hacemos intro, aparecerá una etiqueta "p" y en el mismo nivel, una etiqueta "a". Se parece mucho a los selectores de css. <br> _Ej:_ <br>
 ``<p></p>`` <br>
 ``<a href=""></a>``
 
-- <b>p+a\*2</b> -> Si escribimos "p+a\*2" y hacemos intro, aparecerá una etiqueta "p" y en el mismo nivel, dos etiquetas "a". Ej: <br>
+- <b>p+a\*2</b> -> Si escribimos "p+a\*2" y hacemos intro, aparecerá una etiqueta "p" y en el mismo nivel, dos etiquetas "a". <br> _Ej:_ <br>
 ``<p></p>`` <br>
 ``<a href=""></a>`` <br>
 ``<a href=""></a>``
 
-- <b>(p+a)*2</b> -> Si escribimos "(p+a)*2" y hacemos intro, aparecerán en el mismo nivel una etiqueta "p", una etiqueta "a", seguida de otra etiqueta "p" y de otra "a". Ej: <br>
+- <b>(p+a)*2</b> -> Si escribimos "(p+a)*2" y hacemos intro, aparecerán en el mismo nivel una etiqueta "p", una etiqueta "a", seguida de otra etiqueta "p" y de otra "a". <br> _Ej:_ <br>
 ``<p></p>`` <br>
 ``<a href=""></a>`` <br>
 ``<p></p>`` <br>
 ``<a href=""></a>``
 
-- **p{Parrafo}** -> Si escribimos una etiqueta y abrimos y cerramos llaves, el contenido entre las llaves, va a ser el texto que está entre las etiquetas de apertura y cierre. Ej:
+- **p{Parrafo}** -> Si escribimos una etiqueta y abrimos y cerramos llaves, el contenido entre las llaves, va a ser el texto que está entre las etiquetas de apertura y cierre. <br> _Ej:_
 ``<p>Parrafo</p>``
 
-- **p#parrafo1** -> Si escribimos una etiqueta seguida de un hashtag con una palabra, se creará esa etiqueta con un atributo "id" que tenga el valor igualado a esa palabra. Se parece mucho a los selectores de css. Ej:
+- **p#parrafo1** -> Si escribimos una etiqueta seguida de un hashtag con una palabra, se creará esa etiqueta con un atributo "id" que tenga el valor igualado a esa palabra. Se parece mucho a los selectores de css. <br> _Ej:_
 ``<p id="parrafo1"></p>``
 
-- **p.parrafos** -> Si escribimos una etiqueta seguida de un punto y una palabra, se creará esa etiqueta con un atributo "class" que tenga el valor igualado a esa palabra. Se parece mucho a los selectores de css. Ej:
+- **p.parrafos** -> Si escribimos una etiqueta seguida de un punto y una palabra, se creará esa etiqueta con un atributo "class" que tenga el valor igualado a esa palabra. Se parece mucho a los selectores de css. <br> _Ej:_
 ``<p class="parrafos"></p>``
 
-- **pre#texto-preformateado1.texto** -> Crea una etiqueta "pre" con un atributo id="texto-preformateado1" y un class="texto". Ej:
+- **pre#texto-preformateado1.texto** -> Crea una etiqueta "pre" con un atributo id="texto-preformateado1" y un class="texto". <br> _Ej:_
 ``<pre id="texto-preformateado1" class="texto"></pre>``
 
-- **p>b** -> Si escribimos "p>b" significa que crearemos una etiqueta "p" que a su vez, contenga una etiqueta "b". Ej:
+- **p>b** -> Si escribimos "p>b" significa que crearemos una etiqueta "p" que a su vez, contenga una etiqueta "b". <br> _Ej:_
 ``<p><b></b></p>``
 
-- <b>table>(tr>th*3)+((tr>td*3))*2</b> -> Creará una tabla con un "tr" que tenga anidados tres "th" y dos "tr" que tengan anidados, cada uno, tres "td". Ej: <br>
+- <b>table>(tr>th*3)+((tr>td*3))*2</b> -> Creará una tabla con un "tr" que tenga anidados tres "th" y dos "tr" que tengan anidados, cada uno, tres "td". <br> _Ej:_ <br>
 ``<table>`` <br>
     ``  <tr>`` <br>
       ``    <th></th>`` <br>
@@ -67,7 +70,7 @@ En ambos casos nos aparecerá esta estructura: <br><br>
     ``  </tr>`` <br>
   ``</table>``
   
-- <b>p#parrafo$${Este es el párrafo $$}*11</b> -> Si ponemos una etiqueta seguido de un hashtag con una palabra, abrimos y cerramos llaves con un texto y lo multiplicamos por once, nos crea once etiquetas con un id y un texto dentro. El dólar es un símbolo dinámico, que toma el valor de cada uno de los números del 1 al número por el que lo hayamos multiplicado en nuestro código. El dólar se puede poner en cualquier texto que queramos que sea dinámico, en este caso lo usamos tanto en el id como en el texto de cada elemento. Ej: <br>
+- <b>p#parrafo$${Este es el párrafo $$}*11</b> -> Si ponemos una etiqueta seguido de un hashtag con una palabra, abrimos y cerramos llaves con un texto y lo multiplicamos por once, nos crea once etiquetas con un id y un texto dentro. El dólar es un símbolo dinámico, que toma el valor de cada uno de los números del 1 al número por el que lo hayamos multiplicado en nuestro código. El dólar se puede poner en cualquier texto que queramos que sea dinámico, en este caso lo usamos tanto en el id como en el texto de cada elemento. <br> _Ej:_ <br>
 ``<p id="parrafo01">Este es el párrafo 01</p>`` <br>
 ``<p id="parrafo02">Este es el párrafo 02</p>`` <br>
 ``<p id="parrafo03">Este es el párrafo 03</p>`` <br>
@@ -80,7 +83,7 @@ En ambos casos nos aparecerá esta estructura: <br><br>
 ``<p id="parrafo10">Este es el párrafo 10</p>`` <br>
 ``<p id="parrafo11">Este es el párrafo 11</p>``
 
-- <b>ul>li.list-item{Elemento $}*11</b> -> Crea un "ul" con once elementos "li", cada uno de esos elementos tiene un atributo "class" igual y un texto dinámico gracias al dólar. Ej: <br>
+- <b>ul>li.list-item{Elemento $}*11</b> -> Crea un "ul" con once elementos "li", cada uno de esos elementos tiene un atributo "class" igual y un texto dinámico gracias al dólar. <br> _Ej:_ <br>
 ``<ul>`` <br>
 ``  <li class="list-item">Elemento 1</li>`` <br>
 ``  <li class="list-item">Elemento 2</li>`` <br>
@@ -95,7 +98,7 @@ En ambos casos nos aparecerá esta estructura: <br><br>
 ``  <li class="list-item">Elemento 11</li>`` <br>
   ``</ul>``
 
-- <b>ol#calles&gt;li{Calle $@10}*4</b> -> Crea un ol con un id="calles" con cuatro elementos "li", en cada uno de ellos aparece un texto dinámico. Al poner $@10, indicamos que el dólar empieza desde el número 10 inclusive. Ej: <br>
+- <b>ol#calles&gt;li{Calle $@10}*4</b> -> Crea un ol con un id="calles" con cuatro elementos "li", en cada uno de ellos aparece un texto dinámico. Al poner $@10, indicamos que el dólar empieza desde el número 10 inclusive. <br> _Ej:_ <br>
 ``<ol id="calles">`` <br>
 ``  <li>Calle 10</li>`` <br>
 ``  <li>Calle 11</li>`` <br>
@@ -103,7 +106,7 @@ En ambos casos nos aparecerá esta estructura: <br><br>
 ``  <li>Calle 13</li>`` <br>
 ``</ol>``
 
-- <b>div>(div.container>img.foto+p#foto$-titulo)*4</b> -> crea un "div" con cuatro "div" diferentes con la misma class="container" y que a su vez, cada div de clase container tiene una etiqueta "img" de class="foto" y un "p" con un "id" dinámico. Ej: <br>
+- <b>div>(div.container>img.foto+p#foto$-titulo)*4</b> -> crea un "div" con cuatro "div" diferentes con la misma class="container" y que a su vez, cada div de clase container tiene una etiqueta "img" de class="foto" y un "p" con un "id" dinámico. <br> _Ej:_ <br>
 ``<div>`` <br>
 ``  <div class="container">`` <br>
 ``    <img src="" alt="" class="foto">`` <br>
@@ -123,7 +126,7 @@ En ambos casos nos aparecerá esta estructura: <br><br>
 ``  </div>`` <br>
 ``</div>``
 
-- <b>(div.post>h2.title+span.date+div.content>lorem)*5</b> -> Crea cinco divs de class="post" que dentro tienen un h2 con un class="title", un span con un class="date" y un div con un class="content" y dentro un texto de Lorem Ipsum. Ej: <br>
+- <b>(div.post>h2.title+span.date+div.content>lorem)*5</b> -> Crea cinco divs de class="post" que dentro tienen un h2 con un class="title", un span con un class="date" y un div con un class="content" y dentro un texto de Lorem Ipsum. <br> _Ej:_ <br>
 ``<div class="post">`` <br>
 ``  <h2 class="title"></h2>`` <br>
 ``  <span class="date"></span>`` <br>
