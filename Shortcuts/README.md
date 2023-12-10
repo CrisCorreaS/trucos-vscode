@@ -2,9 +2,9 @@
 ### En general el cualquier archivo con extensión .html, .css o .js:
 - **Ctrl+ç** -> Podremos hacer un comentario o comentar el código que hemos seleccionado en cualquiera de esos archivos
 - **(Ctrl+K)+(Ctrl+C)** -> Si pulsamos Ctrl+K y seguidamente Ctrl+C, podremos hacer lo mismo que con Ctrl+ç
-  -- Si lo hacemos en html nos aparecerá: ``<!--  -->``
-  -- Si lo hacemos en css nos aparecerá: ``/*  */``
-  -- Si lo hacemos en js nos aparecerá: ``//``
+  - Si lo hacemos en html nos aparecerá: ``<!--  -->``
+  - Si lo hacemos en css nos aparecerá: ``/*  */``
+  - Si lo hacemos en js nos aparecerá: ``//``
 
 - **Ctrl+c** / **Ctrl+x** / **Ctrl+v** -> Si hacemos Ctrl+c, Ctrl+x o Ctrl+v al final de la línea, se copiará, cortará o pegará (respectivamente), toda la línea, incluído el elemento de la línea y los comentarios que haya.
 
