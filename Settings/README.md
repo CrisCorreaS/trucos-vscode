@@ -1,3 +1,6 @@
 # SETTINGS VSCODE
 - **Espacios de Indentación** -> Según el Standard Web y la [Guía de Estilos de Google](https://google.github.io/styleguide/htmlcssguide.html#Indentation), deberían de haber 2 espacios de indentación, no 4. 
   - Para establecer los espacios de indentación en 2, tenemos que ir a la barra inferior de VSCode y buscar el apartado "Spaces", hacemos click sobre este y veremos que en la barra del buscador aparecerá la opción "Indent Using Spaces". Hacemos click en esa opción y observaremos un desplegable con varios valores numéricos, ahí tendremos que seleccionar el número "2" y podremos ver que en la barra inferior de VSCode ahora pone "Spaces:2"
+
+- **Sticky Scroll para mejorar el explorador de carpetas** -> Es una característica que ayuda a los desarrolladores a navegar a través de archivos de código grandes o bases de código desconocidas. Puede ser especialmente útil cuando es difícil rastrear en qué lugar del código te encuentras.
+  - Para establecer el sticky scroll, tenemos que darle a la ruedita inferior izquierda y elegir la opción "Settings" (o hacer un `Ctrl+","`). En la barra de "Search Settings" escribimos "Sticky Scroll", buscamos la opción "Workbench › Tree: Enable Sticky Scroll" y hacemos que se marque un chech en "Controls whether sticky scrolling is enabled in trees."
