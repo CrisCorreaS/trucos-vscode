@@ -1,15 +1,16 @@
 # trucos-vscode
 ![Badge en Desarollo](https://img.shields.io/badge/STATUS-EN%20DESAROLLO-green)
-
-
+<img align="right" alt="License MIT" src="https://img.shields.io/badge/LICENSE-MIT-green" /> <br/>
+<img alt="visualstudiocode" src="https://img.shields.io/badge/-Visual studio Code-007ACC?style=flat-square&logo=visualstudiocode&logoColor=white" />
+<br/>
 Este repositorio quiere ser una guía completa para dominar Visual Studio Code. Aquí se encontrarán recursos organizados para ayudar a aprovechar al máximo este potente entorno de desarrollo.
 
-## Introducción
+## 📖 Introducción
 Visual Studio Code es un editor de código fuente liviano y altamente personalizable desarrollado por Microsoft. Con una amplia gama de extensiones y características, VSCode se ha convertido en la elección preferida de muchos desarrolladores para una variedad de lenguajes y tecnologías.
 
 Este repositorio está diseñado para ofrecerte información detallada sobre atajos, extensiones, configuraciones y más, para que se pueda optimizar el flujo de trabajo y aumentar la productividad al máximo.
 
-## Contenido del Repositorio
+## 📚 Contenido del Repositorio
 - **Emmet:**
 Explicación de cómo utilizar Emmet, una potente herramienta de expansión de código, para agilizar la escritura de HTML y CSS.
 
@@ -22,7 +23,7 @@ Atajos de teclado esenciales que permitirán navegar y ejecutar comandos de mane
 - **Settings:**
 Personalizaciones del entorno de desarrollo con configuraciones específicas que se adapten a las necesidades y preferencias.
 
-## Cómo Contribuir
+## ✨ Cómo Contribuir
 ¡Las contribuciones son bienvenidas! Si tienes sugerencias, correcciones o nuevos contenidos para agregar, sigue estos pasos:
 
  - Realiza un fork del repositorio
