@@ -1,7 +1,4 @@
 # EXTENSIONES GENERALES DE VSCODE
-- **Auto Rename Tag:** Se usa para cambiar el nombre de las etiquetas tanto empezando por las etiquetas de cierre como con las de apertura <br>
-![Puedes ver un ejemplo aquí](https://github.com/CrisCorreaS/trucos-vscode/blob/main/Extensiones/01%20Generales/Videos/auto-rename-tag.gif)
-
 - **CMake:** Facilita el proceso de construcción y compilación de software en diferentes plataformas. Proporciona herramientas que simplifican la configuración y construcción de proyectos, al igual que da soporte para la sintaxis y el autocompletado.
 
 - **CMake Tools** Ayuda en el desarrollo de proyectos que utilizan CMake como sistema de construcción. Es una extensión que complementa a CMake
