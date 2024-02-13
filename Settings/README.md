@@ -5,3 +5,6 @@
 
 - **Sticky Scroll para mejorar el explorador de carpetas** -> Es una característica que ayuda a los desarrolladores a navegar a través de archivos de código grandes o bases de código desconocidas. Puede ser especialmente útil cuando es difícil rastrear en qué lugar del código te encuentras.
   - Para establecer el sticky scroll, tenemos que darle a la ruedita inferior izquierda y elegir la opción "Settings" (o hacer un `Ctrl+","`). En la barra de "Search Settings" escribimos "Sticky Scroll", buscamos la opción "Workbench › Tree: Enable Sticky Scroll" y hacemos que se marque un chech en "Controls whether sticky scrolling is enabled in trees."
+
+- **Linked Editing** -> Es una característica que permite actualizar automáticamente los símbolos relacionados mientras se edita el código. Por ejemplo, si trabajamos con etiquetas HTML y cambiamos la etiqueta de apertura, la etiqueta de cierre correspondiente también se actualizará para coincidir con el cambio.
+  - Para establecer linked editing, tenemos que darle a la ruedita inferior izquierda y elegir la opción "Settings" (o hacer un `Ctrl+","`). En la barra de "Search Settings" escribimos "Linked Editing", buscamos la opción "Editor: LinkedEditing" y hacemos que se marque un chech en "Controls whether the editor has linked editing enabled."
