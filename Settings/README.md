@@ -14,3 +14,6 @@
 
 - **Bracket Pairs** -> Es una característica de colorización de pares de corchetes que ayuda a los desarrolladores a distinguir visualmente los pares de corchetes abiertos y cerrados en el código.
   - Para establecer bracket pairs, tenemos que darle a la ruedita inferior izquierda y elegir la opción "Settings" (o hacer un `Ctrl+","`). En la barra de "Search Settings" escribimos "Bracket Pairs", buscamos la opción "Editor › Guides: Bracket Pairs" y hacemos que se elija la opción "true" en "Controls whether bracket pair guides are enabled or not."
+
+- **Sticky Scroll** -> Es una característica que permite mantener el alcance actual visible en la parte superior del editor mientras se desplaza por el código. Por ejemplo saber en qué función estás.
+  - Para establecer sticky scroll, tenemos que darle a la ruedita inferior izquierda y elegir la opción "Settings" (o hacer un `Ctrl+","`). En la barra de "Search Settings" escribimos "Sticky Scroll", buscamos la opción "Editor › Sticky Scroll" y hacemos que se marque un check en "Shows the nested current scopes during the scroll at the top of the editor."
