@@ -18,5 +18,28 @@
 - **Sticky Scroll** -> Es una característica que permite mantener el alcance actual visible en la parte superior del editor mientras se desplaza por el código. Por ejemplo saber en qué función estás.
   - Para establecer sticky scroll, tenemos que darle a la ruedita inferior izquierda y elegir la opción "Settings" (o hacer un `Ctrl+","`). En la barra de "Search Settings" escribimos "Sticky Scroll", buscamos la opción "Editor › Sticky Scroll" y hacemos que se marque un check en "Shows the nested current scopes during the scroll at the top of the editor."
 
-- **File Nesting** -> Es una característica que permite agrupar visualmente archivos relacionados bajo un "archivo raíz" en el mismo directorio, ayudando a reducir el desorden visual en el explorador de archivos del editor. Por ejeplo: en una app simple de React, en "package.json" se anida "package-lock.json".
-  - Para establecer file nesting, tenemos que darle a la ruedita inferior izquierda y elegir la opción "Settings" (o hacer un `Ctrl+","`). En la barra de "Search Settings" escribimos "File Nesting", buscamos la opción "Explorer › File Nesting: Expand" y hacemos que se marque un check en "Controls whether file nests are automatically expanded. Explorer › File Nesting: Enabled must be set for this to take effect." 
+- **File Nesting** -> Es una característica que permite agrupar visualmente archivos relacionados bajo un "archivo raíz" en el mismo directorio, ayudando a reducir el desorden visual en el explorador de archivos del editor. Por ejeplo: en una app simple de React, en "package.json" se anida "package-lock.json" por defecto.
+  - Para establecer file nesting, tenemos que darle a la ruedita inferior izquierda y elegir la opción "Settings" (o hacer un `Ctrl+","`). En la barra de "Search Settings" escribimos "File Nesting", buscamos la opción "Explorer › File Nesting: Expand" y hacemos que se marque un check en "Controls whether file nests are automatically expanded. Explorer › File Nesting: Enabled must be set for this to take effect."
+  - Para configurar cómo queremos que estén animados estos archivos, tenemos que ir hacia abajo y buscar una tabla que por defecto aparece así:
+    | Item| Value|
+    | ----- | ---- |
+    | *.ts | ${capture}.js |
+    | *.js | ${capture}.js.map, ${capture}.min.js, ${capture}.d.ts |
+    | *.jsx | ${capture}.js |
+    | *.tsx | ${capture}.js |
+    | tsconfig.json | tsconfig.*.json |
+    | package.json | package-lock.json, yarn.lock, pnpm-lock.yaml, bun.lockb |
+
+    Y por ahora mi sugerencia es dejarlo así:
+    | Item| Value|
+    | ----- | ---- |
+    | *.ts | ${capture}.js |
+    | *.js | ${capture}.js.map, ${capture}.min.js, ${capture}.d.ts |
+    | *.jsx | ${capture}.js |
+    | *.tsx | ${capture}.js |
+    | tsconfig.json | tsconfig.*.json |
+    | package.json | package-lock.json, yarn.lock, pnpm-lock.yaml, bun.lockb, .eslintrc.*, .gitignore, jsconfig.json, next.config.mjs, postcss.config.js, prettier.config.js, tailwind.config.js, vite.config.js |
+    | .env | .env* |
+    | .gitignore | .gitattributes, .gitmodules, .gitmessage, .mailmap, .git-blame* |
+    | README.md | LICENSE, AUTHORS, CHANGELOG.md, CODE_OF_CONDUCT.md, CODEOWNERS, CONTRIBUTING.md |
+    
