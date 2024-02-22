@@ -17,3 +17,6 @@
 
 - **Sticky Scroll** -> Es una característica que permite mantener el alcance actual visible en la parte superior del editor mientras se desplaza por el código. Por ejemplo saber en qué función estás.
   - Para establecer sticky scroll, tenemos que darle a la ruedita inferior izquierda y elegir la opción "Settings" (o hacer un `Ctrl+","`). En la barra de "Search Settings" escribimos "Sticky Scroll", buscamos la opción "Editor › Sticky Scroll" y hacemos que se marque un check en "Shows the nested current scopes during the scroll at the top of the editor."
+
+- **File Nesting** -> Es una característica que permite agrupar visualmente archivos relacionados bajo un "archivo raíz" en el mismo directorio, ayudando a reducir el desorden visual en el explorador de archivos del editor. Por ejeplo: en una app simple de React, en "package.json" se anida "package-lock.json".
+  - Para establecer file nesting, tenemos que darle a la ruedita inferior izquierda y elegir la opción "Settings" (o hacer un `Ctrl+","`). En la barra de "Search Settings" escribimos "File Nesting", buscamos la opción "Explorer › File Nesting: Expand" y hacemos que se marque un check en "Controls whether file nests are automatically expanded. Explorer › File Nesting: Enabled must be set for this to take effect." 
