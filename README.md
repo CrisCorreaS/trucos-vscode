@@ -1,4 +1,4 @@
-# trucos-vscode
+# Trucos de Visual Studio Code
 ![Badge en Desarollo](https://img.shields.io/badge/STATUS-EN%20DESAROLLO-green)
 <img align="right" alt="License MIT" src="https://img.shields.io/badge/LICENSE-MIT-green" /> <br/>
 <img alt="visualstudiocode" src="https://img.shields.io/badge/-Visual studio Code-007ACC?style=flat-square&logo=visualstudiocode&logoColor=white" />
