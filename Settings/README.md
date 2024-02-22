@@ -42,6 +42,8 @@
     | .env | .env* |
     | .gitignore | .gitattributes, .gitmodules, .gitmessage, .mailmap, .git-blame* |
     | README.md | LICENSE, AUTHORS, CHANGELOG.md, CODE_OF_CONDUCT.md, CODEOWNERS, CONTRIBUTING.md |
+ 
+  - Un ejemplo del resultado en un proyecto de React con Vite y Tailwinds:
 
-    ![Ejemplo de cómo quedan anidados los archivos](https://github.com/CrisCorreaS/trucos-vscode/blob/main/Settings/img/img-file-nesting1.png)
+    ![Ejemplo de cómo quedan anidados los archivos](https://github.com/CrisCorreaS/trucos-vscode/blob/main/Settings/img/img-file-nesting1.png) ➡️
     ![Ejemplo de cómo quedan anidados los archivos](https://github.com/CrisCorreaS/trucos-vscode/blob/main/Settings/img/img-file-nesting2.png)
