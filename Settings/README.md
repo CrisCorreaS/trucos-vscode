@@ -42,6 +42,7 @@
     | .env | .env* |
     | .gitignore | .gitattributes, .gitmodules, .gitmessage, .mailmap, .git-blame* |
     | README.md | LICENSE, AUTHORS, CHANGELOG.md, CODE_OF_CONDUCT.md, CODEOWNERS, CONTRIBUTING.md |
+    | pom.xml | mvnw* |
  
   - Un ejemplo del resultado en un proyecto de React con Vite y Tailwinds:
 
