@@ -1,5 +1,6 @@
 # EXTENSIONES ESPECÍFICAS PARA ARDUINO
-- **PlatformIO IDE:** facilita el desarrollo de proyectos relacionados con sistemas embebidos y microcontroladores. La plataforma PlatformIO es un ecosistema de desarrollo para sistemas embebidos. Una vez que te acostumbras, es muy fácil programar en PlatformIO como alternativa a Arduino IDE.
+
+- **PlatformIO IDE:** Facilita el desarrollo de proyectos relacionados con sistemas embebidos y microcontroladores. La plataforma PlatformIO es un ecosistema de desarrollo para sistemas embebidos. Una vez que te acostumbras, es muy fácil programar en PlatformIO como alternativa a Arduino IDE.
 
   Las principales funciones y características de la extensión PlatformIO IDE incluyen:
 

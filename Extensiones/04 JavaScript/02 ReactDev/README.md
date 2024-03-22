@@ -1,0 +1,13 @@
+# EXTENSIONES ESPECÍFICAS PARA JAVASCRITP
+> [!NOTE]
+> Para JavaScript, utilizo de referente el color azul, por lo que a la hora de diferenciar cada uno de los frameworks, utilizo un azul más oscuro. En caso de solo usar JavaScript Vanilla elijo el tema "Dark Modern" con "Mandalorian Blue", le doy dos toques de dark (#1f5fd0) con `Windows + Alt + "-"` y lo guardo en la config del perfil. 
+
+- **CSS Navigation:** Mejorar la navegación, la gestión de archivos CSS dentro del editor y la interactuabilidad entre el css y el html.
+- **Console Ninja:** Mejorar la experiencia de depuración en el desarrollo de aplicaciones. Muestra la salida de console.log y los errores de tiempo de ejecución directamente en el editor desde la aplicación de navegador o node en ejecución.
+- **ES7 React/Redux/GraphQL/React-Native snippets:** Proporciona fragmentos de código (snippets) en JavaScript y React/Redux con sintaxis ES7 y características del plugin Babel. Estos snippets están diseñados para acelerar el proceso de desarrollo al permitir a los desarrolladores escribir código de manera más rápida y eficiente.
+- **ESLint:** Ayuda a mantener un código JavaScript limpio y consistente. Analiza el código en busca de posibles errores, inconsistencias y prácticas no deseadas, según las reglas predefinidas o personalizadas.
+- **HTML to CSS autocompletition:** Proporciona sugerencias de autocompletado para clases e IDs desde documentos de marcado a hojas de estilo.
+- **JavaScript (ES6) code snippets:** Facilita la escritura de código JavaScript utilizando la sintaxis de ECMAScript 2015 (ES6). Proporciona fragmentos de código reutilizables y predefinidos que se pueden insertar fácilmente en el código (snippets). Al escribir ciertos atajos o activadores y hacer click en "Tab" o "Enter", la extensión expandirá automáticamente el fragmento en un bloque de código completo.
+- **JSON Crack:** Permite visualizar, analizar y manipular datos JSON de manera instantánea en gráficos, lo que facilita la transformación de conjuntos de datos JSON complejos en gráficos informativos y visualmente atractivos.
+- **Prettier - Code formatter:** Ayuda a mantener un código fuente limpio y consistentemente formateado e indentado. Analizar el código y aplica automáticamente reglas de formato predefinidas para asegurar que el estilo del código sea coherente en todo el proyecto.
+- **Simple React Snippets:** Acelera el desarrollo en React al proporcionar una colección esencial de fragmentos de código (snippets) y comandos específicos para React. 
