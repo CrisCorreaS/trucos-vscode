@@ -9,6 +9,7 @@
 - **Lombok Annotations Support for VSCode** → Proporciona soporte y refactoriza de código para las anotaciones de Lombok en proyectos Java dentro del entorno de desarrollo Visual Studio Code (VSCode).
 - **Maven for Java** → Da soporte integrado para proyectos Java que utilizan Maven como sistema de gestión de proyectos. Se usa para gestionar dependencias, construir proyectos y gestionar ciclos de vida del software
 - **Project Manager for Java** → Ayuda a administrar tus proyectos Java y sus dependencias. También permite crear nuevos proyectos Java, paquetes y clases. Viene en el Extension Pack for Java
+- **Rest Client** → Permite enviar peticiones HTTP directamente desde el editor y observar las respuestas en el mismo entorno de desarrollo. Esta herramienta es especialmente útil para probar APIs y servicios web sin necesidad de salir del editor.
 - **Spring Boot Dashboard** → Proporciona una interfaz en la barra lateral para ver y administrar todos los proyectos de Spring Boot disponibles en el espacio de trabajo. También soporta características para iniciar, detener o depurar rápidamente un proyecto de Spring Boot. Viene en el Spring Boot Extension Pack
 - **Spring Boot Extension Pack** → Paquete de extensiones que facilitan el desarrollo de aplicaciones Spring Boot. 
 - **Spring Boot Tools** → Da soporte para trabajar con archivos de propiedades de Spring Boot. Viene en el Spring Boot Extension Pack
