@@ -10,6 +10,6 @@ Los perfiles de VSCode que tengo por ahora son los siguientes:
 |**JavaDev**|`#13321C`|
 |**SpringDev**|`#215732`|
 |**JSDev**|`#1F5FD0`|
-|**ReactDev**|`#1F5FD0`|
+|**ReactDev**|`#164A8E`|
 |**PythonDev**|`#7E5A8A`|
 |**ArduinoDev**|`#44444B`|
