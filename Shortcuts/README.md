@@ -4,8 +4,6 @@
 - **`Ctrl + P`** → Abre el explorador de archivos de VSCode donde podemos buscar el nombre de su archivo o su extensión. Ej: buscar "index.html" o todos los archivos de python con ".py". Para abrir los archivos solo tenemos que seleccionarlos y hacer enter.
 - **`Ctrl + B`** → Abre o cierra la "primary side bar" de VSCode que es la que está a la izquierda donde podemos realizar acciones como ver los archivos, crear una carpeta, buscar extensiones...
 - **`Ctrl + Shift + V`** → Enseña en otra ventana una versión de "Preview" mostrando cómo se vería el archivo, eso es muy interesante para los que tienen extensión ".md"
-- **``**
-- **``**
 - **`Ctrl +  Ñ`** → Aparece la terminal de VSCode <br>
 ![Puedes ver un ejemplo aquí](https://github.com/CrisCorreaS/trucos-vscode/blob/main/Shortcuts/Videos/terminal.gif)
 - **`Ctrl + "+"`** → Aumenta el zoom en VSCode
@@ -20,6 +18,7 @@
   - Si lo hacemos en css nos aparecerá: ``/*  */``
   - Si lo hacemos en js nos aparecerá: ``//``
 - **`Ctrl + C`** / **`Ctrl + X`** / **`Ctrl + V`** → Si hacemos `Ctrl + C`, `Ctrl + X` o `Ctrl + V` al final de la línea, se copiará, cortará o pegará (respectivamente), toda la línea, incluído el elemento de la línea y los comentarios que haya.
+- **`Ctrl + Shift + K`** → Elimina la línea en la que estamos o las líneas que estamos seleccionando.
 - **`Ctrl + A`** → Selecciona todo lo que hayamos marcado
 - **`Ctrl + F`** → Abre el buscador de texto para encontrar palabras o expresiones regulares e incluso reeplazarlas por otras
 - **`Tab`** → Si seleccionamos parte de un código y hacemos click sobre el tabulador, se le añade un espacio. Esto ayuda a indentar el código.
