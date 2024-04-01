@@ -11,17 +11,30 @@ Visual Studio Code es un editor de código fuente liviano y altamente personaliz
 Este repositorio está diseñado para ofrecerte información detallada sobre atajos, extensiones, configuraciones y más, para que se pueda optimizar el flujo de trabajo y aumentar la productividad al máximo.
 
 ## 📚 Contenido del Repositorio
-- **Emmet:**
+- **[Emmet](https://github.com/CrisCorreaS/trucos-vscode/tree/main/Emmet):**
 Explicación de cómo utilizar Emmet, una potente herramienta de expansión de código, para agilizar la escritura de HTML y CSS.
 
-- **Extensiones:**
+- **[Extensiones](https://github.com/CrisCorreaS/trucos-vscode/tree/main/Extensiones):**
 Recomendaciones de extensiones generales, así como extensiones específicas para Java, JavaScript y Arduino, que mejorarán la experiencia de desarrollo.
 
-- **Shortcuts:**
+- **[Settings](https://github.com/CrisCorreaS/trucos-vscode/tree/main/Settings):**
+Personalizaciones del entorno de desarrollo con configuraciones específicas que se adapten a las necesidades y preferencias.
+
+- **[Shortcuts](https://github.com/CrisCorreaS/trucos-vscode/tree/main/Shortcuts):**
 Atajos de teclado esenciales que permitirán navegar y ejecutar comandos de manera eficiente en VSCode.
 
-- **Settings:**
-Personalizaciones del entorno de desarrollo con configuraciones específicas que se adapten a las necesidades y preferencias.
+## 👤 Perfiles actuales
+1. **Genérico** → Es el que tengo por defecto para construir los otros perfiles
+2. **Documentación** → Para escribir mejor documentación en los READMEs y otros documentos. Tiene un visor de pdf y también varias extensiones para escribir mejor en markdown
+3. **JavaDev** → Es específico para el desarrollo con Java y Maven
+4. **SpringDev** → Especializado en proyectos de SpringBoot
+5. **JSDev** → Se centra en proyectos pequeños con JavaScript Vanilla
+6. **ReactDev** → Para proyectos con React
+7. **AngularDev** → Para proyectos con Angular
+8. **VueDev** → Para proyectos con Vue
+9. **PythonDev** → Centrado en el desarrollo con Python
+10. **ArduinoDev** → Para proyectos con Arduino
+
 
 ## ✨ Cómo Contribuir
 ¡Las contribuciones son bienvenidas! Si tienes sugerencias, correcciones o nuevos contenidos para agregar, sigue estos pasos:
