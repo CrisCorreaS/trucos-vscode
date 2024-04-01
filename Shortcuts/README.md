@@ -37,9 +37,23 @@
 - **`Ctrl + Click Izquierdo`** → Podemos ir a ver donde se originó una variable si la seleccionamos y hacemos ese comando
 
 ### Cursor tricks
+- **Selección haciendo click y manteniendo + `Alt + Shift`** → Cuando hacemos un click, mantenemos pulsado el ratón y usamos las teclas `Alt + Shift`, en vez de hacer una "wrapping selection", hacemos una "box selection" la cual es mucho más fácil de utilizar para según qué casos. [Aquí tienes más información](https://www.youtube.com/watch?v=ONLERMB-DQw)
+- **Pulsar el botón central (la ruedita) y mantener** → Es lo mismo que lo anterior, con esto hacemos una "box selection"
 - **Click en un elemento + `Alt` + más clicks** → Hacer click en un sitio concreto, luego pulsar `Alt` y hacer click en otros sitios (tantos como se quiera), hace que se pueda incluir código y borrarlo en todos los lugares en los que se ha hecho click <br>
 ![Puedes ver un ejemplo aquí](https://github.com/CrisCorreaS/trucos-vscode/blob/main/Shortcuts/Videos/select-many-elements.gif)
 - **Doble click en una palabra + `Ctrl + D`** → Si seleccionamos una palabra al hacer doble click y luego hacemos `Ctrl + D` las veces que queramos, se seleccionarán tantas instancias de esta como hayamos querido. Al hacer esto, el cursor se multiplicará todas las veces que queramos y se pondrá al final de la palabra. Esto es super útil cuando quieres modificar la palabra o las sentencias en las que esté. 
 - **Doble click en una palabra + `Ctrl + Shift + L`** → Es igual que el anterior pero esta vez con presionar las teclas una vez, se seleccionarán todas las instancias de la palabra seleccionada y se colocará un cursor al final de cada una de las instancias.
-- **Selección haciendo click y manteniendo + `Alt + Shift`** → Cuando hacemos un click, mantenemos pulsado el ratón y usamos las teclas `Alt + Shift`, en vez de hacer una "wrapping selection", hacemos una "box selection" la cual es mucho más fácil de utilizar para según qué casos. [Aquí tienes más información](https://www.youtube.com/watch?v=ONLERMB-DQw)
-- **Pulsar el botón central (la ruedita) y mantener** → Es lo mismo que lo anterior, con esto hacemos una "box selection"
+
+## Otras cosas interesantes
+- Si hacemos hover sobre una clase, interfaz... podemos ver una pequeña ayuda y explicación de qué hace o si está importada. 
+- Si pulsamos `Ctrl` y le pasamos por encima el ratón en una clase, interfaz... se nos abre una descripción mucho más detallada.
+- Si pulsamos `Ctrl`, le pasamos por encima el ratón en una clase, interfaz... y luego hacemos click cuando la veamos cambiar de color y poniéndose subrayada, podemos ir a la definición de esa clase.
+![Puedes ver un ejemplo aquí](https://github.com/CrisCorreaS/trucos-vscode/blob/main/Shortcuts/Videos/peek-and-find.gif)
+- Si hacemos click derecho en la ventana donde tenemos el código en vscode, podemos elegir las siguientes opciones:
+    -  "**Format document with...**" → Para formatear el documento con el tipo de formato que queramos. Nos da a elegir "Formatter" si no tenemos uno configurado por defecto que es algo que me gusta bastante.
+-  Si seleccionamos una clase, campo... y hacemos click derecho, podemos elegir las siguientes opciones:
+      -  "**Peek → Peek Definition**" → Podremos ver la definición de lo que estamos buscando en una ventana pequeña
+      -  "**Peek → Peek References**" → Podremos ver la referencias de lo que estamos buscando en una ventana pequeña
+      -  "**Peek → Peek Implementations**" → Podremos ver la implementaciones de lo que estamos buscando en una ventana pequeña
+      -  "**Find All References**" → Podremos ver todas las referencias de lo que estamos buscando en la parte de la izquierda donde aparecerá una nueva vista llamada "References" (con símbolo de dos hojas de papel superpuestas con una flecha apuntando a la de atrás). Ahí aparecerán el número de resultados y el número de archivos donde está presente.
+      -  "**Show Call Hierarchy**" → Podremos ver la misma vista de "References" pero esta vez para visualizar la jerarquía de llamadas de una función específica. Solo sirve en funciones ya que se muestran todas las llamadas desde o hacia una función, permitiéndonos profundizar en las llamadas a otras funciones. Esta característica es especialmente útil para entender el flujo del código, cómo las funciones interactúan entre sí y para debuggear.
